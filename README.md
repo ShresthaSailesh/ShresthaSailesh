@@ -185,12 +185,46 @@ I actively leverage **GitHub Copilot** as an agentic coding partner across my en
 
 ---
 
+## 💼 Work Experience
+
+<!-- LINKEDIN_EXPERIENCE_START -->
+<table>
+  <tr>
+    <th>Role</th>
+    <th>Company</th>
+    <th>Duration</th>
+    <th>Highlights</th>
+  </tr>
+  <tr>
+    <td>🧑‍💻 <strong>Software Engineer</strong></td>
+    <td><em>See LinkedIn</em></td>
+    <td><em>See LinkedIn</em></td>
+    <td>Full-stack development · Java · Spring Boot · REST APIs</td>
+  </tr>
+</table>
+
+> 📌 _Full work history available on [LinkedIn](https://www.linkedin.com/in/sailesh-shrestha/)_
+<!-- LINKEDIN_EXPERIENCE_END -->
+
+---
+
+## 🔗 Featured LinkedIn Projects
+
+<!-- LINKEDIN_PROJECTS_START -->
+> 📌 _Public projects and portfolio available on [LinkedIn](https://www.linkedin.com/in/sailesh-shrestha/)_
+<!-- LINKEDIN_PROJECTS_END -->
+
+---
+
 ## 📫 Let's Connect
 
 <div align="center">
 
 <a href="https://github.com/ShresthaSailesh">
   <img src="https://img.shields.io/badge/GitHub-ShresthaSailesh-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="https://www.linkedin.com/in/sailesh-shrestha/">
+  <img src="https://img.shields.io/badge/LinkedIn-Sailesh%20Shrestha-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 
 <br/><br/>
