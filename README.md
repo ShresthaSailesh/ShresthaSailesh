@@ -61,10 +61,7 @@ ask_me_about:
 > 🤖 _This section is **automatically updated** by GitHub Actions — powered by the GitHub API_
 
 <!-- CURRENTLY_WORKING_ON_START -->
-| Project | Description | Language | Status |
-|---------|-------------|----------|--------|
-| [**littlesunflowerchilddaycare**](https://github.com/ShresthaSailesh/littlesunflowerchilddaycare) | Childcare center web application | 📦 Web | 🟢 Active |
-| [**ShresthaSailesh**](https://github.com/ShresthaSailesh/ShresthaSailesh) | GitHub profile README — agentic & auto-updated | 📦 Markdown | 🟢 Active |
+_No recent activity detected._
 <!-- CURRENTLY_WORKING_ON_END -->
 
 ---
@@ -82,14 +79,7 @@ _No private repositories found. Add a `GH_PAT` secret with `repo` scope to displ
 ## 🌐 Public Projects
 
 <!-- ALL_PROJECTS_START -->
-| Project | Description | Language | Status |
-|---------|-------------|----------|--------|
-| [**littlesunflowerchilddaycare**](https://github.com/ShresthaSailesh/littlesunflowerchilddaycare) | Childcare center web application | 📦 Web | 🟢 Active |
-| [**chat-service**](https://github.com/ShresthaSailesh/chat-service) | Backend chat microservice | ☕ Java | ⚫ Archived |
-| [**datastructures**](https://github.com/ShresthaSailesh/datastructures) | Data structures practice repository | 📦 N/A | ⚫ Archived |
-| [**dogwisedata**](https://github.com/ShresthaSailesh/dogwisedata) | MSIS-624 data analysis project | 🟨 JavaScript | ⚫ Archived |
-| [**SportsEventor**](https://github.com/ShresthaSailesh/SportsEventor) | Sports event management system | ☕ Java | ⚫ Archived |
-| [**File-Reader-in-Java**](https://github.com/ShresthaSailesh/File-Reader-in-Java) | Maven-based Java file reader | ☕ Java | ⚫ Archived |
+_No public repositories found._
 <!-- ALL_PROJECTS_END -->
 
 ---
@@ -214,7 +204,7 @@ I actively leverage **GitHub Copilot** as an agentic coding partner across my en
 <div align="center">
 
 <!-- LAST_UPDATED_START -->
-_🤖 Auto-updated by GitHub Actions on **2026-03-13 19:18 UTC**_
+_🤖 Auto-updated by GitHub Actions on **2026-03-13 19:22 UTC**_
 <!-- LAST_UPDATED_END -->
 
 <br/>
