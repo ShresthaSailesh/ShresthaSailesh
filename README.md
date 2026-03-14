@@ -104,16 +104,20 @@ _No public repositories found._
 
 ### 🔧 Tools & Platforms
 ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Claude AI](https://img.shields.io/badge/Claude_AI-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
 
 ### 🗄️ Databases & Cloud
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 </div>
 
@@ -213,6 +217,39 @@ I actively leverage **GitHub Copilot** as an agentic coding partner across my en
 <!-- LINKEDIN_PROJECTS_START -->
 > 📌 _Public projects and portfolio available on [LinkedIn](https://www.linkedin.com/in/sailesh-shrestha/)_
 <!-- LINKEDIN_PROJECTS_END -->
+
+---
+
+## 🚀 Deployed Projects
+
+> 🌐 _Four live applications built and deployed using **GitHub Copilot**, **Google Gemini**, **Claude AI**, and hosted on **Cloudflare** — developed with **IntelliJ IDEA** and **Visual Studio**._
+
+<div align="center">
+
+| &nbsp; | Project | Description | Status |
+|:---:|---------|-------------|:------:|
+| 💍 | **[Marriage Maal Hisaab](https://marriagemaalhisaab.com)** | Marriage expense tracker and financial management application | [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=cloudflare&logoColor=white)](https://marriagemaalhisaab.com) |
+| 🏆 | **[Phoenix Sports Zone](https://phoenixsportszone.com)** | Sports zone platform for managing and showcasing athletic activities | [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=cloudflare&logoColor=white)](https://phoenixsportszone.com) |
+| 🌻 | **[Little Sunflower Child Daycare](https://littlesunflowerchilddaycare.com)** | Child daycare management and information platform | [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=cloudflare&logoColor=white)](https://littlesunflowerchilddaycare.com) |
+| 🤖 | **[Shrestha.AI](https://shrestha.ai)** | Personal AI-powered portfolio and intelligent assistant platform | [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=cloudflare&logoColor=white)](https://shrestha.ai) |
+
+</div>
+
+<details>
+<summary>🛠️ <strong>Tools & Technologies Used</strong></summary>
+<br/>
+
+<div align="center">
+
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Claude AI](https://img.shields.io/badge/Claude_AI-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
+
+</div>
+</details>
 
 ---
 
