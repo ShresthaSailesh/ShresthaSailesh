@@ -101,7 +101,6 @@ def format_repo_row(repo, show_private_badge=True):
     lang = repo.get("language") or "N/A"
     lang_emoji = get_language_emoji(lang)
     is_private = repo.get("private", False)
-    html_url = repo.get("html_url", "")
     pushed_at = repo.get("pushed_at", "")
     days = days_since(pushed_at)
 
@@ -118,10 +117,11 @@ def format_repo_row(repo, show_private_badge=True):
     visibility = get_visibility_badge(is_private) if show_private_badge else ""
 
     if is_private:
-        # For private repos, don't link to them but show the name
+        # For private repos, show the name without a link
         repo_cell = f"🔒 **{name}**"
     else:
-        repo_cell = f"[**{name}**]({html_url})"
+        # For public repos, show the name without a link to avoid exposing the repository
+        repo_cell = f"**{name}**"
 
     row = f"| {repo_cell} | {description} | {lang_emoji} {lang} | {activity} |"
     return row
@@ -164,27 +164,6 @@ def build_private_projects(repos):
     return "\n".join(lines)
 
 
-def build_all_projects(repos, profile_repo_name=None):
-    """Build the 'All Projects' section with public repos."""
-    public_repos = [r for r in repos if not r.get("private", False)]
-    # Exclude the profile repo itself (the repo whose name matches the owner login)
-    if profile_repo_name:
-        public_repos = [r for r in public_repos if r.get("name") != profile_repo_name]
-    public_repos.sort(key=lambda r: r.get("pushed_at", ""), reverse=True)
-
-    if not public_repos:
-        return "_No public repositories found._"
-
-    lines = [
-        "| Project | Description | Language | Status |",
-        "|---------|-------------|----------|--------|",
-    ]
-    for repo in public_repos:
-        lines.append(format_repo_row(repo, show_private_badge=False))
-
-    return "\n".join(lines)
-
-
 def update_readme_section(readme_content, start_marker, end_marker, new_content):
     """Replace content between markers in the README."""
     pattern = re.compile(
@@ -206,9 +185,8 @@ def main():
 
     print("Fetching user info...")
     user_info = get_user_info(token)
-    profile_repo_name = user_info.get("login") if user_info else None
-    if profile_repo_name:
-        print(f"Authenticated as: {profile_repo_name}")
+    if user_info:
+        print(f"Authenticated as: {user_info.get('login')}")
 
     print("Fetching repositories...")
     repos = get_all_repos(token)
@@ -221,7 +199,6 @@ def main():
     # Build dynamic sections
     currently_working = build_currently_working_on(repos)
     private_projects = build_private_projects(repos)
-    all_projects = build_all_projects(repos, profile_repo_name=profile_repo_name)
 
     # Timestamp
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -245,12 +222,6 @@ def main():
         "<!-- PRIVATE_PROJECTS_START -->",
         "<!-- PRIVATE_PROJECTS_END -->",
         private_projects,
-    )
-    readme_content = update_readme_section(
-        readme_content,
-        "<!-- ALL_PROJECTS_START -->",
-        "<!-- ALL_PROJECTS_END -->",
-        all_projects,
     )
     readme_content = update_readme_section(
         readme_content,
