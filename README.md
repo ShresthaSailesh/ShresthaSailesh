@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Animated wave header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Sailesh%20Shrestha&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Engineer%20%7C%20Java%20Enthusiast%20%7C%20AI-Powered%20Developer&descAlignY=53&descAlign=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Sailesh%20Shrestha&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Engineer%20%7C%20AI%20Architect%20%7C%20Agentic%20Developer&descAlignY=53&descAlign=50" width="100%" />
 
 <!-- Typing animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Building+robust+Java+services+%E2%98%95;Crafting+full-stack+web+applications+%F0%9F%8C%90;Supercharged+by+GitHub+Copilot+%F0%9F%A4%96;Always+learning%2C+always+shipping+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Designing+Agentic+AI+Architectures+%F0%9F%A7%A0;Orchestrating+Multi-Agent+Dev+Pipelines+%F0%9F%A4%96;Building+AI-Native+Full-Stack+Systems+%E2%9A%99%EF%B8%8F;Shipping+with+GitHub+Copilot+Agents+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -24,32 +24,73 @@
 
 ## 🤖 About Me
 
-<img align="right" alt="Coding" width="300" src="https://camo.githubusercontent.com/5046cb083418fd1922b7f5990e594c3bb06f5d87e5516cd8839ae0aa48b3aec4/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e462f6b6531375a77644f4f703173387778566573724c544d386e36395bde38302e6769663f666f726d61743d37353077" />
-
 ```yaml
-name: Sailesh Shrestha
-location: United States
-education: MSIS (Master of Information Systems)
-role: Software Engineer
+name:      Sailesh Shrestha
+location:  United States
+education: MSIS — Master of Information Systems
+role:      Software Engineer · AI Architect · Agentic Developer
 
-currently:
-  - Supercharging workflow with GitHub Copilot 🤖
-  - Building full-stack apps & backend services ⚙️
-  - Exploring AI-assisted development patterns 🧠
-  - Deepening Java + Spring Boot expertise ☕
+identity:
+  - Design and orchestrate multi-agent AI systems for real-world software delivery
+  - Build AI-native full-stack applications where agents drive the dev lifecycle
+  - Architect agentic pipelines: plan → generate → review → test → deploy
+  - Leverage GitHub Copilot Agents, Claude AI, and Gemini as active collaborators
 
-interests:
-  - Clean Architecture & Design Patterns
-  - AI-Powered Development Workflows
-  - Enterprise Java & Microservices
-  - Data Structures & Algorithms
+core_focus:
+  - Agentic AI Architecture & Multi-Agent Orchestration
+  - AI-Powered Software Design Patterns
+  - Enterprise Java · Spring Boot · Microservices
+  - Full-Stack Development with AI-augmented workflows
 
 ask_me_about:
-  - Java, Spring Boot, Maven
-  - JavaScript, Node.js
-  - GitHub Copilot workflows
-  - Software Architecture
+  - Agentic development with GitHub Copilot
+  - Designing AI-driven SDLC pipelines
+  - Java · Spring Boot · REST APIs
+  - Deploying AI-native apps on Cloudflare
 ```
+
+---
+
+## 🧠 AI Architecture & Agentic Flow
+
+> How I design and ship software — orchestrated by AI agents at every stage.
+
+```mermaid
+flowchart TD
+    A([💡 Idea / Requirement]) --> B[🧠 AI Planning Agent\nGitHub Copilot Chat]
+    B --> C[📐 Architecture Design\nClaude AI · Gemini]
+    C --> D[⚙️ Code Generation Agent\nGitHub Copilot Edits]
+    D --> E[🔍 Review & Refactor Agent\nCopilot Code Review]
+    E --> F[🧪 Test Generation Agent\nCopilot · JUnit · Jest]
+    F --> G{✅ Quality Gate}
+    G -- Pass --> H[📦 Build & Package\nMaven · Node.js]
+    G -- Fail --> E
+    H --> I[🚀 Deploy Agent\nGitHub Actions · Cloudflare]
+    I --> J([🌐 Live Application])
+
+    style A fill:#1f2937,color:#f9fafb,stroke:#6366f1
+    style J fill:#1f2937,color:#f9fafb,stroke:#10b981
+    style G fill:#1f2937,color:#f9fafb,stroke:#f59e0b
+    style B fill:#0d1117,color:#58a6ff,stroke:#58a6ff
+    style C fill:#0d1117,color:#a78bfa,stroke:#a78bfa
+    style D fill:#0d1117,color:#34d399,stroke:#34d399
+    style E fill:#0d1117,color:#60a5fa,stroke:#60a5fa
+    style F fill:#0d1117,color:#fb923c,stroke:#fb923c
+    style H fill:#0d1117,color:#e879f9,stroke:#e879f9
+    style I fill:#0d1117,color:#2dd4bf,stroke:#2dd4bf
+```
+
+### Agent Roles in My Workflow
+
+| Agent | Model / Tool | Responsibility |
+|-------|-------------|----------------|
+| 🧠 **Planning** | GitHub Copilot Chat | Break down requirements, propose architecture |
+| 📐 **Design** | Claude AI · Gemini | System design, API contracts, data modeling |
+| ⚙️ **Generation** | GitHub Copilot Edits | Implement features, boilerplate, patterns |
+| 🔍 **Review** | Copilot Code Review | Catch bugs, enforce standards, suggest improvements |
+| 🧪 **Testing** | Copilot · JUnit · Jest | Generate unit, integration, and edge-case tests |
+| 📦 **Build** | Maven · Node.js | Compile, package, and validate artifacts |
+| 🚀 **Deployment** | GitHub Actions · Cloudflare | CI/CD pipeline, automated rollout |
 
 ---
 
@@ -73,7 +114,7 @@ _No private repositories found. Add a `GH_PAT` secret with `repo` scope to displ
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## 🛠️ Tech Stack
 
 <div align="center">
 
@@ -85,22 +126,23 @@ _No private repositories found. Add a `GH_PAT` secret with `repo` scope to displ
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### 🚀 Frameworks & Libraries
+### 🚀 Frameworks & Runtimes
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 
-### 🔧 Tools & Platforms
+### 🤖 AI Agents & Tools
 ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Claude AI](https://img.shields.io/badge/Claude_AI-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
+
+### 🔧 IDEs & Platforms
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
 
 ### 🗄️ Databases & Cloud
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -109,45 +151,6 @@ _No private repositories found. Add a `GH_PAT` secret with `repo` scope to displ
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 </div>
-
----
-
-## 🤖 Powered by GitHub Copilot
-
-<div align="center">
-
-> *"GitHub Copilot is not just autocomplete — it's a thinking partner that amplifies your potential."*
-
-</div>
-
-I actively leverage **GitHub Copilot** as an agentic coding partner across my entire development workflow:
-
-<table>
-  <tr>
-    <td>🧠 <strong>Intelligent Code Generation</strong></td>
-    <td>Accelerate boilerplate, patterns, and complex logic</td>
-  </tr>
-  <tr>
-    <td>🔍 <strong>Code Reviews & Refactoring</strong></td>
-    <td>Explore alternative implementations and design improvements</td>
-  </tr>
-  <tr>
-    <td>🧪 <strong>Test & Documentation</strong></td>
-    <td>Generate comprehensive tests and clear documentation faster</td>
-  </tr>
-  <tr>
-    <td>📚 <strong>API & Library Discovery</strong></td>
-    <td>Learn new technologies through contextual AI suggestions</td>
-  </tr>
-  <tr>
-    <td>🚀 <strong>Problem Solving</strong></td>
-    <td>Maintain momentum during complex architectural decisions</td>
-  </tr>
-  <tr>
-    <td>�� <strong>Agentic Workflows</strong></td>
-    <td>Multi-step task automation with GitHub Copilot Agents</td>
-  </tr>
-</table>
 
 ---
 
