@@ -17,9 +17,6 @@
 <a href="https://github.com/ShresthaSailesh?tab=followers">
   <img src="https://img.shields.io/github/followers/ShresthaSailesh?label=Followers&style=for-the-badge&color=238636&labelColor=1b1f23" alt="GitHub Followers" />
 </a>
-<a href="https://github.com/ShresthaSailesh?tab=repositories">
-  <img src="https://img.shields.io/badge/Repositories-Explore-blue?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
-</a>
 
 </div>
 
@@ -73,14 +70,6 @@ _No recent activity detected._
 <!-- PRIVATE_PROJECTS_START -->
 _No private repositories found. Add a `GH_PAT` secret with `repo` scope to display private projects._
 <!-- PRIVATE_PROJECTS_END -->
-
----
-
-## 🌐 Public Projects
-
-<!-- ALL_PROJECTS_START -->
-_No public repositories found._
-<!-- ALL_PROJECTS_END -->
 
 ---
 
